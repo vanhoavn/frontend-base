@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "lib": [
+            "es6",
+            "dom",
+            "scripthost"
+        ],
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "jsx": "preserve",
+        "allowSyntheticDefaultImports": true,
+        "rootDirs": [
+            "src/",
+            "."
+        ],
+        "baseUrl": "./src",
+        "paths": {
+            "*": [
+                "*",
+                "src/*",
+                "src/app/*"
+            ]
+        },
+        "removeComments": true
+    },
+    "compileOnSave": false,
+    "include": [
+        "src/app/global.d.ts",
+        "src/app/extends.d.ts",
+        "src/**/*"
+    ],
+    "exclude": [
+        "bower_components",
+        "node_modules"
+    ],
+    "files": [
+        "typings/index.d.ts",
+        "src/app/global.d.ts",
+        "src/app/extends.d.ts"
+    ]
+}

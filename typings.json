@@ -1,0 +1,8 @@
+{
+    "name": "app",
+    "dependencies": {},
+    "globalDependencies": {
+        "jquery.pnotify": "registry:dt/jquery.pnotify#3.0.0+20160928134922",
+        "vue-resource": "registry:dt/vue-resource#0.9.3+20160803221903"
+    }
+}
